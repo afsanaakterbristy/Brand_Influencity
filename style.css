@@ -168,7 +168,9 @@ footer p{
 
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
-
+    header {
+            margin: 50px 60px;
+        }
     nav .cart1,
     #cart3 {
         display: inline;
