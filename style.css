@@ -1,0 +1,206 @@
+body{
+  
+    font-family: poppins;
+    
+}
+header{
+    margin: 50px 60px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .cart1{
+    display: none;
+}
+.header-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.header-nav a,i{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px;      
+}
+.advertising{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 70px;
+  
+}
+.advertising-img{
+    width: 500px;
+    height: 350px;
+    border: 4px solid rgb(243, 241, 241);
+    border-radius: 100%;
+}
+.advertising img{
+    width: 250px;
+    height: 300px;
+    padding: 10px 30px 5px 50px;
+}
+.advertising-title{
+    margin-right: 40%;
+}
+.advertising-title h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.advertising-title p{
+    font-size: 13px;
+}
+.advertising-title button{
+    background-color: rgb(151, 30, 50);
+    border: none;
+    padding: 5px 35px;
+    color: blanchedalmond;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.advertising-title i{
+    color: white;
+}
+.logos{
+    text-align: center;
+}
+.logos img{
+       margin: 5px 30px;
+      
+}
+
+section .all-Collection{
+    display: grid;
+    grid-template-columns: repeat(3, 335px);
+    justify-content: center;
+    gap: 20px;
+  
+}
+.Collections{
+    
+    width: 329px;
+    height: 476px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    line-height: 5px;
+
+    
+}
+.Collection-title{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.Collection-img img{
+        width: 300px;
+        height: 256px;
+        padding: 17px 15px 14px;
+        border-radius: 5px;
+}
+.c-des{
+    padding-left: 15px;
+}
+.Collections h2{
+    font-size: 28px;
+
+}
+.Collections p,span{
+    font-size: 14px;
+    color: rgb(78, 77, 77);
+}
+.rating .filled{
+    color: yellow;
+    justify-content: space-around;
+}
+.rating .filled-last{
+    color: gainsboro;
+}
+.see-more{
+    color: rgb(151, 30, 50);
+    text-align: right;
+    margin-right:60px;
+    margin-top: 10px;
+}
+
+.marketing{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+}
+.marketing img{
+    width: 404px;
+    height: 270px;
+    border-radius: 7px;
+}
+.marketing-body{
+    margin-left: 10%;
+}
+.marketing-body .button{
+    color: aliceblue;
+    background-color: rgb(151, 30, 50);
+    border: none;
+    padding: 5px 15px;      
+        
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    background: cover;
+    line-height: 13px;
+}
+.social{
+    color: aliceblue;
+    font-size: 20px;
+}
+footer h1{
+    font-size: 24px;
+    padding-top: 30px;
+}
+footer p{
+    font-size: 12px;
+}
+
+/* media queries */
+
+/* Mobile Devices */
+@media only screen and (max-width: 688px) {
+
+    nav .cart1,
+    #cart3 {
+        display: inline;
+        font-size: 28px;
+    }
+
+    .header-nav a,
+    #cart2 {
+        display: none;
+    }
+
+    .advertising {
+        flex-direction: column-reverse;
+    }
+
+    .advertising-title {
+        margin: 0px;
+        text-align: center;
+    }
+
+    section .all-Collection {
+
+        grid-template-columns: repeat(1, 335px);
+    }
+
+    .marketing {
+        flex-direction: column-reverse;
+    }
+
+    .marketing-body {
+
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
