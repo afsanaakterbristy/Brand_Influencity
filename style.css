@@ -4,7 +4,7 @@ body{
     
 }
 header{
-    margin: 50px 60px;
+    margin: 50px 200px;
 }
 nav{
     display: flex;
@@ -28,7 +28,7 @@ nav .cart1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 70px;
+    margin: 50px 200px;
   
 }
 .advertising-img{
@@ -43,7 +43,7 @@ nav .cart1{
     padding: 10px 30px 5px 50px;
 }
 .advertising-title{
-    margin-right: 40%;
+    margin-right: 10%;
 }
 .advertising-title h1{
     font-size: 30px;
